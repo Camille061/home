@@ -1,0 +1,235 @@
+    #Btn {
+        border: none;
+        color: rgb(255, 255, 255);
+        background: linear-gradient(to right, #f2ff00, #fb0606);
+        border-radius: 20px;
+        padding: 10px 30px 10px 30px;
+        font-weight: bold;
+
+    }
+
+    /* background: linear-gradient(to right, #f2ff00, #ececec); */
+    .Imag {
+        width: 200px;
+        height: 200px;
+        border: none;
+        border-radius: 50%;
+        object-fit: cover;
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+    #myText {
+        background-color:  #e262ff;
+        text-align: center;
+    }
+
+
+    .top-bar {
+        text-align: center;
+    }
+
+    #text-username {
+        font-size: 48px;
+        font-weight: 700;
+        color: #f6ff00;
+        position: relative;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        text-shadow:
+            0 0 8px rgba(255, 182, 193, .9),
+            0 0 16px rgba(255, 105, 180, .8),
+            0 0 24px rgba(255, 20, 147, .7);
+        transition: all .3s ease;
+    }
+
+    #text-username:hover {
+        text-shadow:
+            0 0 12px rgba(255, 182, 193, 1),
+            0 0 24px rgba(255, 105, 180, 1),
+            0 0 36px rgba(255, 20, 147, 1);
+    }
+
+
+    .text-username {
+        font-weight: bold;
+    }
+
+
+    .btn1 {
+        background: linear-gradient(to right, #00fbff, #c8ff00);
+        border: none;
+        border-radius: 20px;
+    }
+
+    .facebook-box {
+          height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e262ff;
+    }
+
+    .facebook {
+        border: none;
+        border-radius: 20px;
+        background: linear-gradient(to right, #000000, #9a007b);
+        display: flex;
+        align-items: center;
+        width: 300px;
+    }
+
+    .text-discord {
+        margin: 0rem;
+        padding: 15px;
+        font-weight: bold;
+        font-family: "Mitr", sans-serif;
+
+    }
+
+    .img2 {
+        width: 70px;
+        height: 60px;
+        margin: 0 1rem;
+    }
+
+    .instargram-box {
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e262ff
+    }
+
+    .facebook {
+    text-align: left;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    display: flex;
+    border: none;
+    border-radius: 35px;
+    background: linear-gradient(270deg, #19017a, #ff7cf6, #0d0063);
+    background-size: 400% 400%;
+    width: 300px;
+    height: 70px;
+    animation: gradientMove 5s ease infinite;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.instargram {
+    text-align: left;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    display: flex;
+    border: none;
+    border-radius: 35px;
+    background: linear-gradient(270deg, #19017a, #ff7cf6, #0d0063);
+    background-size: 400% 400%;
+    width: 300px;
+    height: 70px;
+    animation: gradientMove 5s ease infinite;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+    .instargram-box {
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e262ff
+    }
+
+.tiktok-box {
+  height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e262ff
+}
+
+    .tiktok {
+     text-align: left;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    display: flex;
+    border: none;
+    border-radius: 35px;
+    background: linear-gradient(270deg, #19017a, #ff7cf6, #0d0063);
+    background-size: 400% 400%;
+    width: 300px;
+    height: 70px;
+    animation: gradientMove 5s ease infinite;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+    }
+
+
+
+/* git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Camille061/fasai.git
+git push -u origin main */
