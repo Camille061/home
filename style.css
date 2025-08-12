@@ -20,7 +20,7 @@
     }
 
     #myText {
-        background-color:  #e262ff;
+        background-color: #d0c4ff;
         text-align: center;
     }
 
@@ -68,7 +68,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #e262ff;
+        background-color: #d0c4ff;
     }
 
     .facebook {
@@ -99,7 +99,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #e262ff
+  
+        background-color: #d0c4ff;
     }
 
     .facebook {
@@ -109,8 +110,8 @@
     padding-left: 20px;
     display: flex;
     border: none;
-    border-radius: 35px;
-    background: linear-gradient(270deg, #19017a, #ff7cf6, #0d0063);
+    border-radius: 20px;
+    background: linear-gradient(270deg, #000000, #680361, #fffeff);
     background-size: 400% 400%;
     width: 300px;
     height: 70px;
@@ -118,6 +119,7 @@
     color: white;
     font-weight: bold;
     font-size: 18px;
+     text-transform: uppercase;
 }
 
 @keyframes gradientMove {
@@ -146,14 +148,15 @@
 }
 
 .instargram {
+     text-transform: uppercase;
     text-align: left;
     align-items: center;
     justify-content: flex-start;
     padding-left: 20px;
     display: flex;
     border: none;
-    border-radius: 35px;
-    background: linear-gradient(270deg, #19017a, #ff7cf6, #0d0063);
+    border-radius: 20px;
+    background: linear-gradient(270deg, #000000, #680361, #fffeff);
     background-size: 400% 400%;
     width: 300px;
     height: 70px;
@@ -161,6 +164,7 @@
     color: white;
     font-weight: bold;
     font-size: 18px;
+     text-transform: uppercase;
 }
 
 @keyframes gradientMove {
@@ -187,34 +191,32 @@
         background-position: 0% 50%;
     }
 }
-
-
 
     .instargram-box {
         height: 80px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #e262ff
+        background-color: #d0c4ff;
     }
 
-.tiktok-box {
-  height: 80px;
+     .tiktok-box {
+        height: 80px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #e262ff
-}
+        background-color: #d0c4ff;
+    }
 
     .tiktok {
-     text-align: left;
+    text-align: left;
     align-items: center;
     justify-content: flex-start;
     padding-left: 20px;
     display: flex;
     border: none;
-    border-radius: 35px;
-    background: linear-gradient(270deg, #19017a, #ff7cf6, #0d0063);
+    border-radius: 20px;
+    background: linear-gradient(270deg, #000000, #680361, #fffeff);
     background-size: 400% 400%;
     width: 300px;
     height: 70px;
@@ -222,8 +224,28 @@
     color: white;
     font-weight: bold;
     font-size: 18px;
+    text-transform: uppercase;
+   
+}
 
-    }
+.oop {
+    background: linear-gradient( to right, #00fbff, #9a007b);
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+@keyframes test {
+    0% { background-color: #00fbff;}
+    50% {background-color: #680361;}
+    100% {background-color: #fb0606;}
+}
+
+.oop {animation: test 0.05 linear forwards; animation-delay: 0.05; }
+
+
+
 
 
 

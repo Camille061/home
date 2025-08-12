@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imag {
+width: 50px;
+height: 35px;
+}
+
+.background {
+    background-color: #000000;
+
+}
+.top-head {
+background-color: #121212;
+height: 50px;
+align-items: center;
+display: flex;
+padding: 10px;
+}
+
+#all-btn, #song-btn, #podcast-btn {
+    border-radius: 10px;
+    padding: 2px;
+    background-color: #343434;
+    border: none;
+    padding: 5px;
+    color: azure;
+}
+
+#all-btn {
+    margin-right: 10px;
+    background-color: #1DD75F;
+    color: #121212;
+}
+
+#song-btn {
+    margin-right: 10px;
+}
+
+#podcast-btn {
+    margin-right: 10px;
+    }
+
+.plalist {
+background-color: #343434;
+color: aliceblue;
+width: 180px;
+border-radius: 3px;
+display: flex;
+align-items: center;
+margin-left: 10px;
+font-size: small;
+    }
+
+    .radio {
+background-color: #343434;
+color: aliceblue;
+width: 180px;
+border-radius: 3px;
+display: flex;
+align-items: center;
+margin-left: 10px;
+font-size: small;
+    }
+
+    .box1 {
+margin-top: 10px;
+ display: flex;
+    }
+
+    .text.head {
+        margin-top: 20px;
+    }
+
+    .song1 {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+    
+      .song2 {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    
+    
