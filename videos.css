@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.imag {
-width: 50px;
-height: 35px;
-}
 
 .background {
     background-color: #121212;
@@ -56,18 +52,35 @@ padding: 10px;
         
     }
 
-    .btn1, .btn2 {
+    .btn1, .btn2, .btn3 {
          border: none;
          border-radius: 20px;
-         background: linear-gradient(to right, #ff8c00, #ccff00);
+         background: linear-gradient(to right, #ff0000, #2b00d9);
          padding: 5px;
-         color: #000000;
+         color: #f5f5f5;
          margin-top: 30px;
          margin-bottom: 10px;
+         font-weight: bold;
     }
 
     .btn2 {
         margin-left: 10px;
+    }
+
+    .box2 {
+   margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        border: solid; 
+        width: 110px;
+        border-color: #00f7ff;
+        border-radius: 6px;
+    }
+
+    .btn3 {
+        margin-left: 30px;
+       margin-bottom: ;
     }
     
 
