@@ -56,14 +56,13 @@ padding: 10px;
     font-family: "Kanit", sans-serif;
 }
 
-
     .box1 {
         margin-top: 30px;
         display: flex;
         flex-direction: column;
-        margin-left: 20px;
+        margin-left: 4px;
         border: solid; 
-        width: 110px;
+        width: 100px;
         border-color: #00f7ff;
         border-radius: 6px;
     }
@@ -88,9 +87,9 @@ padding: 10px;
     .box2 {
    margin-top: 30px;
         display: flex;
-        margin-left: 20px;
+        margin-left: 5px;
         border: solid; 
-        width: 110px;
+        width: 100px;
         border-color: #00f7ff;
         border-radius: 6px;
     }
@@ -105,9 +104,9 @@ padding: 10px;
 
     .box3 {
 
-        margin-left: 20px;
+        margin-left: 10px;
         border: solid; 
-        width: 110px;
+        width: 100px;
         border-color: #00f7ff;
         border-radius: 6px;
     }
