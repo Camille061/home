@@ -1,3 +1,7 @@
+ /* font-family: "Google Sans Code", monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+ /* font-family: "Kanit", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -17,28 +21,27 @@ display: flex;
 padding: 10px;
 }
 
-#all-btn, #song-btn, #podcast-btn {
+#favourite-btn, #pvp-pack-btn{
     border-radius: 10px;
     padding: 2px;
-    background-color: #343434;
+    background-color: z#343434;
     border: none;
     padding: 5px;
     color: azure;
+    font-family: "Kanit", sans-serif;
 }
 
-#all-btn {
+#favourite-btn {
     margin-right: 10px;
     background-color: #343434;
     color: #ffffff;
 }
 
-#song-btn {
+#pvp-pack-btn {
     margin-right: 10px;
+    background-color: #343434;
 }
 
-#podcast-btn {
-    margin-right: 10px;
-    }
 
     .box1 {
         margin-top: 30px;
@@ -61,10 +64,13 @@ padding: 10px;
          margin-top: 30px;
          margin-bottom: 10px;
          font-weight: bold;
+          font-family: "Google Sans Code", monospace;
     }
 
+    .btn1 {}
+
     .btn2 {
-        margin-left: 10px;
+        margin-left: 4px;
     }
 
     .box2 {
@@ -82,6 +88,13 @@ padding: 10px;
         margin-left: 30px;
     }
     
+    
+/* git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Camille061/fasai.git
+git push -u origin main */
 
 
     
