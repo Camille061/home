@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My pack</title>
 
-    <link rel="stylesheet" href="videos.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <div class="top-head">
     <img class="imag" src="" alt="">
     <a  href=""><button id="favourite-btn">ทั้งหมด</button></a>
     <a href=""><button id="pvp-pack-btn">เอาไว้ก่อนเลย</button></a>
-    <a href=""><button id="arrow-right-btn">>></button></a>
+    <a href="page2.html"><button id="arrow-next-btn">>></button></a>
 </div>
 
 <body class="background">
@@ -43,11 +43,21 @@
   <div class="box3">
             <img style="width: 90px; height: 100px; margin-top: 5px; margin-left: 3px; margin-right: 3px;" src="img/rewx2xmarket.webp" alt="">
             <div class="text-box3">
-            <p style="color: #e1b876;;">Rewx2xMkqi</p>
+            <p style="color: #e1b876; font-weight: bold;">Rewx2xMkqi</p>
             <a href="https://www.mediafire.com/file/ay80a269uqjkzr8/rewx2Xxmkqi.mcpack/file"><button class="btn4">Link</button></a>
             </div>
           </div>
           
+          <script>
+  // ฟังปุ่มกดทั้งหน้า
+  window.addEventListener('keydown', function (e) {
+    // เช็คปุ่ม F12 (key หรือ keyCode เผื่อเบราว์เซอร์เก่า)
+    if (e.key === 'F12' || e.keyCode === 123) {
+      e.preventDefault(); // กันไม่ให้เปิด DevTools (กันได้แค่บางกรณี)
+      alert('กดทำไมจ๊ะ!!!');
+    }
+  });
+</script>
 </body>
 
 </html>
