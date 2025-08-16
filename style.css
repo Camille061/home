@@ -26,8 +26,9 @@
      padding: 10px;
  }
 
- #favourite-btn,
- #pvp-pack-btn {
+ #home-btn,
+ #pvp-pack-btn, #arrow-next-btn {
+    background: linear-gradient(to right, #121212, #89008673);
      border-radius: 10px;
      padding: 2px;
      background-color: z#343434;
@@ -41,11 +42,11 @@
      transform: scale(1.1);
  }
 
- #favourite-btn:hover {
+ #home-btn:hover {
      transform: scale(1.1);
  }
 
- #favourite-btn {
+ #home-btn {
      margin-right: 10px;
      background-color: #343434;
      color: #ffffff;
